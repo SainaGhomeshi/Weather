@@ -1,0 +1,6 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/example/mausam/BuildConfig.java
+ com.example.mausam.BuildConfig
+com/example/mausam/MainActivity.java
+ com.example.mausam.MainActivity

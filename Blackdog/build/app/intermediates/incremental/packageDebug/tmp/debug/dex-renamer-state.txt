@@ -1,0 +1,4 @@
+#Tue Aug 10 21:25:30 AEST 2021
+base.0=D\:\\Git\\Mausam\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

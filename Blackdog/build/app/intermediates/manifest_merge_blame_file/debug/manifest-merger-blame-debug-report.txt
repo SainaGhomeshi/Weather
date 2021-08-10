@@ -1,0 +1,112 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.mausam"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="18"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->D:\Git\Mausam\android\app\src\main\AndroidManifest.xml:42:5-67
+14-->D:\Git\Mausam\android\app\src\main\AndroidManifest.xml:42:22-64
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->D:\Git\Mausam\android\app\src\main\AndroidManifest.xml:43:5-81
+15-->D:\Git\Mausam\android\app\src\main\AndroidManifest.xml:43:22-78
+16
+17    <application
+17-->D:\Git\Mausam\android\app\src\main\AndroidManifest.xml:3:4-41:19
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.1.0] C:\Users\saina.gh\.gradle\caches\transforms-2\files-2.1\d67cd79abd1ca209502f51c69d23182b\core-1.1.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->D:\Git\Mausam\android\app\src\main\AndroidManifest.xml:5:9-43
+21        android:label="Mausam" >
+21-->D:\Git\Mausam\android\app\src\main\AndroidManifest.xml:4:9-31
+22        <activity
+22-->D:\Git\Mausam\android\app\src\main\AndroidManifest.xml:6:9-35:20
+23            android:name="com.example.mausam.MainActivity"
+23-->D:\Git\Mausam\android\app\src\main\AndroidManifest.xml:7:13-41
+24            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+24-->D:\Git\Mausam\android\app\src\main\AndroidManifest.xml:10:13-163
+25            android:hardwareAccelerated="true"
+25-->D:\Git\Mausam\android\app\src\main\AndroidManifest.xml:11:13-47
+26            android:launchMode="singleTop"
+26-->D:\Git\Mausam\android\app\src\main\AndroidManifest.xml:8:13-43
+27            android:screenOrientation="portrait"
+27-->D:\Git\Mausam\android\app\src\main\AndroidManifest.xml:13:13-49
+28            android:theme="@style/LaunchTheme"
+28-->D:\Git\Mausam\android\app\src\main\AndroidManifest.xml:9:13-47
+29            android:windowSoftInputMode="adjustResize" >
+29-->D:\Git\Mausam\android\app\src\main\AndroidManifest.xml:12:13-55
+30
+31            <!--
+32                 Specifies an Android theme to apply to this Activity as soon as
+33                 the Android process has started. This theme is visible to the user
+34                 while the Flutter UI initializes. After that, this theme continues
+35                 to determine the Window background behind the Flutter UI.
+36            -->
+37            <meta-data
+37-->D:\Git\Mausam\android\app\src\main\AndroidManifest.xml:18:13-21:17
+38                android:name="io.flutter.embedding.android.NormalTheme"
+38-->D:\Git\Mausam\android\app\src\main\AndroidManifest.xml:19:15-70
+39                android:resource="@style/NormalTheme" />
+39-->D:\Git\Mausam\android\app\src\main\AndroidManifest.xml:20:15-52
+40            <!--
+41                 Displays an Android View that continues showing the launch screen
+42                 Drawable until Flutter paints its first frame, then this splash
+43                 screen fades out. A splash screen is useful to avoid any visual
+44                 gap between the end of Android's launch screen and the painting of
+45                 Flutter's first frame.
+46            -->
+47            <meta-data
+47-->D:\Git\Mausam\android\app\src\main\AndroidManifest.xml:27:13-30:17
+48                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+48-->D:\Git\Mausam\android\app\src\main\AndroidManifest.xml:28:15-79
+49                android:resource="@drawable/launch_background" />
+49-->D:\Git\Mausam\android\app\src\main\AndroidManifest.xml:29:15-61
+50
+51            <intent-filter>
+51-->D:\Git\Mausam\android\app\src\main\AndroidManifest.xml:31:13-34:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->D:\Git\Mausam\android\app\src\main\AndroidManifest.xml:32:17-68
+52-->D:\Git\Mausam\android\app\src\main\AndroidManifest.xml:32:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->D:\Git\Mausam\android\app\src\main\AndroidManifest.xml:33:17-76
+54-->D:\Git\Mausam\android\app\src\main\AndroidManifest.xml:33:27-74
+55            </intent-filter>
+56        </activity>
+57        <!--
+58             Don't delete the meta-data below.
+59             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+60        -->
+61        <meta-data
+61-->D:\Git\Mausam\android\app\src\main\AndroidManifest.xml:38:9-40:33
+62            android:name="flutterEmbedding"
+62-->D:\Git\Mausam\android\app\src\main\AndroidManifest.xml:39:13-44
+63            android:value="2" />
+63-->D:\Git\Mausam\android\app\src\main\AndroidManifest.xml:40:13-30
+64
+65        <activity
+65-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\saina.gh\.gradle\caches\transforms-2\files-2.1\2631375de80937c90cd3a1032ab35871\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+66            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+66-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\saina.gh\.gradle\caches\transforms-2\files-2.1\2631375de80937c90cd3a1032ab35871\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+67            android:exported="false"
+67-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\saina.gh\.gradle\caches\transforms-2\files-2.1\2631375de80937c90cd3a1032ab35871\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+68            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+68-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\saina.gh\.gradle\caches\transforms-2\files-2.1\2631375de80937c90cd3a1032ab35871\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+69
+70        <meta-data
+70-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\saina.gh\.gradle\caches\transforms-2\files-2.1\dcffa74d8d015470a7eae32b9eb648c7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+71            android:name="com.google.android.gms.version"
+71-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\saina.gh\.gradle\caches\transforms-2\files-2.1\dcffa74d8d015470a7eae32b9eb648c7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+72            android:value="@integer/google_play_services_version" />
+72-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\saina.gh\.gradle\caches\transforms-2\files-2.1\dcffa74d8d015470a7eae32b9eb648c7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+73    </application>
+74
+75</manifest>
